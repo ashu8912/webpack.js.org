@@ -13,9 +13,6 @@
         <loc>https://webpack.js.org/branding</loc>
     </url>
     <url>
-        <loc>https://webpack.js.org/comparison</loc>
-    </url>
-    <url>
         <loc>https://webpack.js.org/concepts</loc>
     </url>
     <url>
@@ -35,6 +32,9 @@
     </url>
     <url>
         <loc>https://webpack.js.org/guides</loc>
+    </url>
+    <url>
+        <loc>https://webpack.js.org/comparison</loc>
     </url>
     <url>
         <loc>https://webpack.js.org/license</loc>
@@ -70,10 +70,10 @@
         <loc>https://webpack.js.org/api/cli</loc>
     </url>
     <url>
-        <loc>https://webpack.js.org/api/compilation-hooks</loc>
+        <loc>https://webpack.js.org/api/compilation-object</loc>
     </url>
     <url>
-        <loc>https://webpack.js.org/api/compilation-object</loc>
+        <loc>https://webpack.js.org/api/compilation-hooks</loc>
     </url>
     <url>
         <loc>https://webpack.js.org/api/compiler-hooks</loc>
@@ -271,9 +271,6 @@
         <loc>https://webpack.js.org/guides/author-libraries</loc>
     </url>
     <url>
-        <loc>https://webpack.js.org/guides/build-performance</loc>
-    </url>
-    <url>
         <loc>https://webpack.js.org/guides/caching</loc>
     </url>
     <url>
@@ -320,6 +317,9 @@
     </url>
     <url>
         <loc>https://webpack.js.org/guides/hot-module-replacement</loc>
+    </url>
+    <url>
+        <loc>https://webpack.js.org/guides/build-performance</loc>
     </url>
     <url>
         <loc>https://webpack.js.org/guides/installation</loc>
