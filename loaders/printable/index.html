@@ -2250,7 +2250,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 <span class="token comment">//</span>
 <span class="token comment">// ...</span>
 <span class="token comment">// Code</span>
-<span class="token comment">// ...</span></code></pre> <pre><code class="hljs language-js"><span class="token keyword">import</span> myLib <span class="token keyword">from</span> <span class="token string">'imports-loader?imports[]=default|jquery|$&#x26;imports[]=angular!./example.js'</span><span class="token punctuation">;</span>
+<span class="token comment">// ...</span></code></pre> <pre><code class="hljs language-js"><span class="token keyword">import</span> myLib <span class="token keyword">from</span> <span class="token string">'imports-loader?imports=default|jquery|$,angular!./example.js'</span><span class="token punctuation">;</span>
 <span class="token comment">// `|` is separator in a query string, equivalently `default|jquery|$` and `angular`</span>
 <span class="token comment">// Adds the following code to the beginning of example.js:</span>
 <span class="token comment">//</span>
@@ -2259,7 +2259,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 <span class="token comment">//</span>
 <span class="token comment">// ...</span>
 <span class="token comment">// Code</span>
-<span class="token comment">// ...</span></code></pre> <pre><code class="hljs language-js"><span class="token keyword">import</span> myLib <span class="token keyword">from</span> <span class="token string">'imports-loader?imports[]=named|library|myMethod&#x26;imports[]=angular!./example.js'</span><span class="token punctuation">;</span>
+<span class="token comment">// ...</span></code></pre> <pre><code class="hljs language-js"><span class="token keyword">import</span> myLib <span class="token keyword">from</span> <span class="token string">'imports-loader?imports=named|library|myMethod,angular!./example.js'</span><span class="token punctuation">;</span>
 <span class="token comment">// `|` is separator in a query string, equivalently `named|library|myMethod` and `angular`</span>
 <span class="token comment">// Adds the following code to the beginning of example.js:</span>
 <span class="token comment">//</span>
@@ -2268,7 +2268,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 <span class="token comment">//</span>
 <span class="token comment">// ...</span>
 <span class="token comment">// Code</span>
-<span class="token comment">// ...</span></code></pre> <pre><code class="hljs language-js"><span class="token keyword">const</span> myLib <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">imports-loader?type=commonjs&#x26;imports[]=single|jquery|$&#x26;imports[]=angular!./example.js</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// ...</span></code></pre> <pre><code class="hljs language-js"><span class="token keyword">const</span> myLib <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">imports-loader?type=commonjs&#x26;imports=single|jquery|$,angular!./example.js</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token comment">// `|` is separator in a query string, equivalently `single|jquery|$` and `angular`</span>
 <span class="token comment">// Adds the following code to the beginning of example.js:</span>
 <span class="token comment">//</span>
